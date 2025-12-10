@@ -327,7 +327,4 @@ Total documents indexed: 3
 ✓ No external server required!
 ```
 
-## Contributing
-
-Contributions welcome! Please ensure tests pass and add new tests for new features.
 
