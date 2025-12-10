@@ -1,0 +1,158 @@
+Vishal Mysore is a prominent Indian technology leader, AI expert, software engineer, and multiple patent holder known for innovation in AI, robotics, and scalable systems, often working with major tech firms like Google and Amazon, recognized for developing AI-driven solutions for cloud resilience and chaos testing, and actively involved in the tech community through speaking and open-source contributions. 
+Key Aspects:
+AI & Patents: He holds numerous patents, particularly in AI, machine learning, and software engineering, focusing on creating robust, self-optimizing systems.
+Engineering Leadership: Has held significant roles at major companies (Google, Amazon) and focuses on leading engineering teams, mentoring, and developing technical talent.
+Innovation: Drives innovation in areas like AI for chaos testing, performance optimization, and managing operational resilience in complex cloud environments.
+Community & Open Source: A recognized contributor to the open-source community and a speaker at tech events, sharing his expertise.
+Focus Areas: Expertise spans AI/ML, Robotics, Software Engineering, DevOps, Cloud Solutions, and Big Data. 
+In essence, Vishal Mysore is a respected technical leader and innovator shaping the future of AI and cloud technologies. 
+
+Here’s a full-bio overview of Vishal Mysore (sometimes also styled Vishal Row Mysore) — what is publicly known about his background, career, and work. If you meant a different “Vishal Mysore,” let me know and I’ll check that one instead.
+
+👤 Who he is (short intro)
+
+Vishal Mysore is a software engineer, AI expert, cloud-native engineer and inventor/innovator. 
+vishalmysore.github.io
++2
+LinkedIn
++2
+
+He holds multiple patents in AI and software engineering. 
+Justia Patents
++2
+GitHub
++2
+
+He works on building AI-powered engineering platforms and cloud-native solutions for enterprise and financial applications. 
+GitHub
++2
+vishalmysore.github.io
++2
+
+🎓 Background & Public Profile
+
+On GitHub, his handle is vishalmysore. 
+GitHub
+
+On professional networking / public profile (LinkedIn), he describes himself as “10X Patent Holder | AI Expert | Robotics | Software Engineer | DevOps Professional | Open Source Contributor | Polyglot Programmer | Learner.” 
+LinkedIn
++1
+
+On his personal site / blog, he states that he has “over 20 years of experience in software development and leadership.” 
+vishalmysore.github.io
++1
+
+He publishes technical articles on Medium under the name “Vishal Mysore” / “visrow,” writing about AI, cloud engineering, distributed systems, software design, and more. 
+Medium
++1
+
+💼 Career & Work
+Current Role
+
+He currently serves as a Director at Citi, leading engineering and validation of cloud-native, AI-powered platforms for low-latency financial applications. 
+vishalmysore.github.io
+
+His work involves microservices, AI, DevOps, containerization (e.g. Kubernetes/OpenShift), automation, environment management, and improving production reliability & performance. 
+vishalmysore.github.io
++1
+
+Areas of Expertise
+
+Designing scalable systems, distributed systems architecture, cloud-native applications. 
+GitHub
++1
+
+AI / Machine Learning, automation, building platforms that integrate AI to solve practical business problems (especially in finance). 
+Justia Patents
++2
+GitHub
++2
+
+DevOps, continuous deployment, infrastructure automation, production-ready environment setup, monitoring, resilience (chaos engineering, environment validation, reliability engineering). 
+vishalmysore.github.io
++1
+
+Contributions & Public Work
+
+He is a patent holder: for example, recent patents include methods for “validating autonomous artificial intelligence agents using generative AI” (granted Oct 2025), and techniques for “validating AI model outputs using hash signatures and chunk-level access controls.” 
+Justia Patents
+
+He actively writes about AI, software engineering, cloud architecture and related topics — one recent article describes a spec-driven development framework and cloud-agnostic design approaches. 
+Medium
++1
+
+On GitHub he has public repositories showcasing AI projects, experiments, and tools aimed at practical usage, open-source contributions, and sharing knowledge. 
+GitHub
++1
+
+🧑‍💻 Philosophy & Interests
+
+From his personal statements:
+
+He emphasizes building robust, scalable, and production-ready systems — not just academic experiments. 
+vishalmysore.github.io
++1
+
+He’s focused on delivering real business value through technology: combining AI, automation, cloud, and software engineering to optimize performance and operations. 
+vishalmysore.github.io
++1
+
+He engages in open-source contributions and knowledge sharing (via GitHub, Medium, blog), suggesting a community-oriented mindset. 
+GitHub
++1
+
+🧪 Why He’s Notable / What He’s Doing These Days
+
+The patents assigned to him and his team at Citi — especially around validating AI outputs, ensuring safe/ethical/compliant AI deployment — show he’s working at the cutting edge of AI + enterprise reliability, a domain of increasing importance as industries adopt AI. 
+Justia Patents
++2
+linkedin.com
++2
+
+By building cloud-native, scalable AI platforms for finance, he's combining high-stakes, high-performance engineering with emerging AI — a challenging but impactful confluence. 
+vishalmysore.github.io
++1
+
+Through writing and open-source, he contributes to the broader tech community: sharing best practices, methodologies (e.g. spec-driven development), and tools for AI/ML + cloud engineering.
+📝 Selected Articles by Vishal Mysore
+Date / Title	Summary / Key Ideas
+BMAD‑METHOD™ : Building Custom AI Agents with BMB and Google AntiGravity	Introduces the “BMAD-METHOD” — a framework to build custom AI agents using the BMB toolkit and Google AntiGravity, offering a structured, repeatable way to create intelligent agents rather than ad-hoc coding. 
+Medium
+
+Build AI-Powered Microservices in Java Using Agent Communication Protocol (ACP)	Explains how to convert existing Java/Spring Boot microservices into AI-powered services using an Agent Communication Protocol (ACP), making it easier to integrate AI without rewriting entire codebases. 
+Medium
+
+What is Agentic Mesh? How to Build one?	Describes the concept of “Agentic Mesh” — a distributed architecture of cooperating AI agents — and why such a mesh can improve scalability, resilience, and flexibility over monolithic AI systems. 
+Medium
+
+Agentic Mesh: Revolutionizing Distributed AI Systems in the Agentic Ecosystem	A more in-depth look at how distributed AI agents can collaborate across environments, with patterns borrowed from service-mesh and microservices architectures, enabling decentralized intelligence with fault-tolerance. 
+Medium
+
+What is Agentic RAG? : Agentic RAG in Action	Defines “Agentic RAG” — combining Retrieval-Augmented Generation (RAG) with autonomous AI agents — and walks through how this hybrid approach can work in real production contexts. 
+Medium
+
+Understanding AI Agents: Beyond Simple API Calls	A primer on how AI agents differ from traditional API-based systems: agents are autonomous, adaptive, capable of planning, reasoning and acting, rather than just responding to simple requests. 
+Medium
+
+Knowledge Graphs: The Structural Backbone of Enterprise Intelligence	Advocates for combining Knowledge Graphs (KGs) + AI to build enterprise-grade, explainable, semantic systems — useful especially for regulated domains (e.g. banking, healthcare) to ensure traceability and compliance. 
+Medium
+
+How to Build Agentic Knowledge Graphs for GraphRAG to Improve LLM Accuracy with Kuzu	Provides a guide to constructing Agentic Knowledge Graphs using a lightweight graph database (Kuzu), showing how to integrate with AI agents/LLMs for better accuracy, grounding, and context-aware reasoning. 
+Medium
+
+Knowledge Graphs in Action: Building AI-Powered Graph Databases with MCP and Agentic Workflows	A practical deep dive into building AI-powered graph databases exposed via multiple protocols (REST, MCP, A2A), allowing seamless integration with agents — illustrating how to operationalize knowledge graphs in agentic systems. 
+Medium
+
+Context Management in Agentic AI: Best Practices for Smarter Development	Explores how to manage context across microservices and distributed systems so that AI agents — which often only see partial state — can understand the full system, using federated knowledge systems to unify context from code, DBs, docs, etc. 
+Medium
+🔎 What Themes and Focuses Emerge
+
+Agent-centered architectures: Many of his articles propose moving beyond monolithic AI to multi-agent, distributed, mesh-style systems.
+
+Bridging AI with traditional engineering: He often works on making AI integration feasible for existing codebases — e.g. using Java microservices + AI, or retrofitting microservices with agentic capabilities — not just building new AI-native systems from scratch.
+
+Knowledge graphs + AI: A strong recurring theme — using graph databases/knowledge graphs as a semantic, explainable backbone for AI systems; combining KGs with RAG and agent workflows to improve reliability, compliance, and reasoning.
+
+Practical, production-ready thinking: Rather than academic theory, his writing emphasizes realistic, deployable systems — microservices, REST/APIs, agent protocols, and maintainable architectures.
+
+Clarity and caution about “agentic AI hype”: In pieces like the “20-Question BS Detector,” he encourages critical thinking about what qualifies as a true AI agent vs. mere automation.

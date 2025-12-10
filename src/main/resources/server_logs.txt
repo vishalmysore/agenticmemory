@@ -1,0 +1,52 @@
+[2025-01-15 10:23:45] INFO: User john@example.com logged in successfully from IP 192.168.1.105
+[2025-01-15 10:24:12] ERROR: Database connection failed - timeout after 30s - Connection string: postgresql://db.prod.company.com:5432/maindb
+[2025-01-15 10:24:15] INFO: Retrying database connection with exponential backoff - Attempt 1/3
+[2025-01-15 10:24:18] INFO: Connection restored successfully - Latency: 45ms
+[2025-01-15 10:25:30] WARN: High memory usage detected - 87% utilized (7.8GB of 9GB) - Process: java-app-server
+[2025-01-15 10:26:45] ERROR: API rate limit exceeded for endpoint /api/users - Client IP: 203.45.67.89 - Rate: 1000 req/min
+[2025-01-15 10:27:12] INFO: Cache miss for key 'user_profile_12345' - Fetching from database
+[2025-01-15 10:27:15] DEBUG: Database query executed in 125ms - Query: SELECT * FROM users WHERE id = 12345
+[2025-01-15 10:28:03] WARN: Slow query detected - Duration: 3.5s - Query: SELECT * FROM orders JOIN customers ON orders.customer_id = customers.id WHERE order_date > '2024-01-01'
+[2025-01-15 10:29:20] INFO: User jane@example.com logged in successfully from IP 10.0.0.54
+[2025-01-15 10:30:45] ERROR: Payment processing failed - Gateway timeout - Transaction ID: TXN-98765 - Amount: $249.99
+[2025-01-15 10:31:10] INFO: Retry payment processing initiated for Transaction ID: TXN-98765
+[2025-01-15 10:31:15] INFO: Payment processed successfully - Transaction ID: TXN-98765 - Gateway: Stripe
+[2025-01-15 10:32:30] WARN: SSL certificate expiring in 14 days - Domain: api.company.com - Expiry: 2025-01-29
+[2025-01-15 10:33:45] INFO: Background job started - Job: daily_report_generation - Job ID: JOB-44556
+[2025-01-15 10:35:12] DEBUG: Email notification sent to admin@company.com - Subject: Daily Report Ready
+[2025-01-15 10:36:20] ERROR: File upload failed - File size exceeds limit - Max: 10MB - Actual: 15.3MB - User: bob@example.com
+[2025-01-15 10:37:45] INFO: User session expired - User: john@example.com - Session duration: 14 minutes
+[2025-01-15 10:38:50] WARN: Disk space running low - Available: 5.2GB (12%) on volume /dev/sda1
+[2025-01-15 10:40:15] INFO: Automated backup started - Backup type: incremental - Target: s3://backups.company.com/db-backup-20250115
+[2025-01-15 10:42:30] INFO: Backup completed successfully - Size: 2.4GB - Duration: 2m 15s
+[2025-01-15 10:43:45] ERROR: Microservice health check failed - Service: payment-service - Status: 503 Service Unavailable
+[2025-01-15 10:44:00] INFO: Auto-scaling triggered - Current instances: 3 - Target instances: 5 - Reason: High CPU usage
+[2025-01-15 10:45:20] INFO: New instances launched - Instance IDs: i-0a1b2c3d4, i-5e6f7g8h9
+[2025-01-15 10:46:35] INFO: Load balancer updated - Active instances: 5 - Health check: passing
+[2025-01-15 10:47:50] WARN: Deprecated API endpoint accessed - Endpoint: /api/v1/users - Client: mobile-app-v2.1 - Migrate to /api/v2/users
+[2025-01-15 10:49:10] INFO: Cache cleared for key pattern 'user_*' - Total keys removed: 1,247
+[2025-01-15 10:50:25] DEBUG: Redis connection pool status - Active: 15 - Idle: 35 - Total: 50
+[2025-01-15 10:51:40] ERROR: Authentication failed - Invalid credentials - Username: attacker@malicious.com - IP: 45.67.89.12 (Blocked)
+[2025-01-15 10:52:55] WARN: Multiple failed login attempts detected - IP: 45.67.89.12 - Count: 5 - Action: Temporary ban (30 minutes)
+[2025-01-15 10:54:10] INFO: Security scan completed - Vulnerabilities found: 0 - Scan duration: 45s
+[2025-01-15 10:55:30] INFO: API request processed - Endpoint: /api/products/search - Response time: 78ms - Status: 200
+[2025-01-15 10:56:45] DEBUG: GraphQL query executed - Query: { products(category: "electronics") { id, name, price } } - Duration: 112ms
+[2025-01-15 10:58:00] INFO: WebSocket connection established - Client ID: ws-client-789 - Protocol: wss://
+[2025-01-15 10:59:15] WARN: WebSocket message queue exceeding threshold - Queue size: 950 - Threshold: 1000
+[2025-01-15 11:00:30] INFO: Message queue flushed - Messages processed: 950 - Duration: 2.3s
+[2025-01-15 11:01:45] ERROR: Third-party API unavailable - Service: weather-api.external.com - Status: 502 Bad Gateway
+[2025-01-15 11:02:50] INFO: Fallback data source activated - Using cached weather data - Last updated: 15 minutes ago
+[2025-01-15 11:04:05] INFO: Scheduled task executed - Task: cleanup_old_sessions - Sessions removed: 342
+[2025-01-15 11:05:20] DEBUG: Memory snapshot - Heap: 2.1GB used / 4GB max - GC count: 12 - GC time: 450ms
+[2025-01-15 11:06:35] WARN: Unusual traffic pattern detected - Source: 123.45.67.0/24 - Requests: 5000 in 60s - Possible DDoS
+[2025-01-15 11:07:50] INFO: Rate limiting activated for subnet 123.45.67.0/24 - Max rate: 100 req/min
+[2025-01-15 11:09:05] INFO: Database connection pool exhausted - Waiting threads: 8 - Pool size: 20 - Max wait time: 5s
+[2025-01-15 11:10:20] WARN: Connection pool resized - New size: 30 - Previous size: 20
+[2025-01-15 11:11:35] INFO: Feature flag toggled - Feature: new_checkout_flow - Status: enabled - Rollout: 25%
+[2025-01-15 11:12:50] DEBUG: A/B test allocation - User: user_67890 - Variant: B - Test: checkout_optimization
+[2025-01-15 11:14:05] INFO: Webhook delivered successfully - Target: https://client.webhook.com/events - Event: order.created - Response: 200
+[2025-01-15 11:15:20] ERROR: Webhook delivery failed - Target: https://partner.api.com/notifications - Event: payment.completed - Response: 404 - Retry scheduled
+[2025-01-15 11:16:35] INFO: Search index updated - Documents indexed: 523 - Index size: 1.2GB - Duration: 8.5s
+[2025-01-15 11:17:50] WARN: Search query timeout - Query: "complicated AND (phrase OR query) NOT simple" - Timeout: 10s
+[2025-01-15 11:19:05] INFO: Metrics exported to monitoring system - Datapoints: 1,523 - Target: prometheus.monitoring.company.com
+[2025-01-15 11:20:20] DEBUG: Thread pool status - Active threads: 45/100 - Queue size: 12 - Completed tasks: 15,234

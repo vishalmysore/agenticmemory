@@ -1,0 +1,14 @@
+PATIENT RECORD - ID: 12345
+Admission Date: January 5, 2025
+
+INITIAL ASSESSMENT:
+Patient admitted on January 5 with acute respiratory distress syndrome. Chief complaints include shortness of breath, persistent cough, and fever of 101.5°F. Medical history notable for hypertension and type 2 diabetes. Patient reports symptoms began 3 days prior to admission with gradual worsening. Physical examination revealed decreased breath sounds in lower lung fields bilaterally. Oxygen saturation 89% on room air, improved to 94% with 2L nasal cannula. Vital signs at admission: BP 140/90 mmHg, HR 88 bpm, RR 22 breaths/min, Temp 101.5°F. Patient appears in moderate distress but alert and oriented times three. No signs of cyanosis noted.
+
+TREATMENT PROTOCOL:
+Began treatment protocol with corticosteroids (methylprednisolone 40mg IV q12h) and broad-spectrum antibiotics (ceftriaxone 1g IV q24h, azithromycin 500mg PO daily). Supplemental oxygen therapy initiated at 2L via nasal cannula with continuous pulse oximetry monitoring. Chest X-ray ordered showing bilateral infiltrates consistent with pneumonia. CBC reveals elevated WBC count of 14,500 cells/μL with left shift. CRP markedly elevated at 85 mg/L. Patient educated on deep breathing exercises and importance of early mobilization. Respiratory therapy consulted for bronchodilator treatments every 4 hours. IV fluids running at 100mL/hr to maintain adequate hydration status.
+
+CLINICAL PROGRESS:
+Patient showed improvement in oxygen saturation by day 2, maintaining 96% on 1L oxygen. Temperature normalized to 98.6°F after 24 hours of antibiotic therapy. Cough remains productive with yellow sputum, sputum culture pending. Patient able to ambulate short distances with minimal dyspnea. Repeat chest X-ray on day 3 shows slight improvement in bilateral infiltrates. WBC trending down to 11,200 cells/μL. Patient reports subjective improvement in breathing and energy levels. Blood glucose levels controlled with insulin sliding scale, averaging 140-160 mg/dL. No adverse reactions to medications noted.
+
+DISCHARGE PLANNING:
+Discharge planned for day 5 if continued improvement. Patient will be sent home with oral antibiotics (amoxicillin-clavulanate 875mg PO BID for 7 days) and prednisone taper (starting 40mg daily, tapering by 10mg every 3 days). Follow-up appointment scheduled with pulmonology in 2 weeks. Patient instructed on warning signs requiring emergency care including worsening shortness of breath, chest pain, or fever above 101°F. Home oxygen therapy not required at discharge. Patient verbalized understanding of discharge instructions and medication regimen. Social work consulted for home health assessment if needed.
