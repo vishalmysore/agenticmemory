@@ -35,43 +35,6 @@ This library is positioned as a **foundation** for agentic memory because it pro
 
 See the [Roadmap](#roadmap) section for planned features.
 
-## Package Structure
-
-```
-io.github.vishalmysore
-├── rag/                           # Core RAG functionality (current implementation)
-│   ├── RAGService.java           # High-level RAG API
-│   ├── LuceneRAGEngine.java      # Low-level Lucene operations
-│   ├── Document.java             # Document model
-│   ├── SearchResult.java         # Search result model
-│   ├── EmbeddingProvider.java    # Embedding interface
-│   ├── OpenAIEmbeddingProvider.java
-│   ├── MockEmbeddingProvider.java
-│   │
-│   ├── chunking/                 # Chunking strategies
-│   │   ├── ChunkingStrategy.java # Interface
-│   │   ├── SlidingWindowChunking.java
-│   │   ├── AdaptiveChunking.java
-│   │   ├── EntityBasedChunking.java
-│   │   ├── TopicBasedChunking.java
-│   │   ├── HybridChunking.java
-│   │   ├── TaskAwareChunking.java
-│   │   ├── HTMLTagBasedChunking.java
-│   │   ├── CodeSpecificChunking.java
-│   │   ├── RegexChunking.java
-│   │   └── NERBasedChunking.java
-│   │
-│   └── examples/                 # Example usage
-│       ├── RAGExample.java
-│       ├── MultiPersonRAGExample.java
-│       ├── BioRAGExample.java
-│       ├── ChunkingStrategiesExample.java
-│       ├── CustomChunkingExample.java
-│       └── NERChunkingExample.java
-│
-└── agenticmemory/                # Future: Full agentic memory features
-    └── (planned for future development)
-```
 
 ## Storage Architecture
 
