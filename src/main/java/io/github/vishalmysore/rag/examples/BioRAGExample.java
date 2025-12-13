@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * Example demonstrating RAG Q&A system using content from a text file.
+ * Example demonstrating RAG Q&amp;A system using content from a text file.
  * This example reads multiple tech leaders' biographies from a text file, creates embeddings,
  * and allows interactive question-answering across all profiles.
  * 

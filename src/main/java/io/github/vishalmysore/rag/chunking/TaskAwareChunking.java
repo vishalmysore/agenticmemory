@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 /**
  * Task-Aware Chunking Strategy
  * 
- * Adapts chunking based on the downstream task (summarization, search, Q&A).
+ * Adapts chunking based on the downstream task (summarization, search, Q&amp;A).
  * Different tasks benefit from different chunk sizes and boundaries.
  * 
  * Best for: Code repositories, multi-purpose document processing

@@ -1,6 +1,6 @@
 # Agentic Memory Foundation
 
-A **lightweight, embedded RAG (Retrieval-Augmented Generation) library** built on Apache Lucene that provides the foundational infrastructure for building **agentic memory systems**. Store and search documents using vector embeddings with advanced chunking strategies—**no external server required**.
+A **lightweight, embedded RAG (Retrieval-Augmented Generation) library** supporting Zettelkasten method built on Apache Lucene that provides the foundational infrastructure for building **agentic memory systems**. Store and search documents using vector embeddings with advanced chunking strategies—**no external server required**.
 
 ## What is Agentic Memory?
 

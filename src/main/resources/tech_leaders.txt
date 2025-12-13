@@ -129,7 +129,7 @@ Deep learning, neural networks, backpropagation, computer vision, unsupervised l
 
 👤 PERSON: Vishal Mysore
 🎓 EDUCATION:
-Vishal Mysore holds a Bachelor's degree in Electronics and Communication Engineering from Bangalore University (1994-1998) and a Master's degree in Software Systems from BITS Pilani (2001-2003).
+Vishal Mysore holds a Bachelor's degree in Electronics and Communication Engineering from Karnataka University (1994-1998) and a Master's degree in Managed from Symbiosis (2001-2003).
 
 💼 CAREER:
 Vishal Mysore is a Distinguished Engineer and Senior Principal Software Engineer at Walmart Global Tech. He has over 25 years of experience in software engineering and architecture. He specializes in microservices architecture, event-driven systems, and cloud-native applications. He has held senior technical positions at various technology companies, leading large-scale distributed systems projects. He is known for his expertise in Java, Spring Boot, and modern software architecture patterns.

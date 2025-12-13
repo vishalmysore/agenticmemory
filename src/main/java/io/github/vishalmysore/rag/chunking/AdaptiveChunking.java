@@ -18,10 +18,22 @@ public class AdaptiveChunking implements ChunkingStrategy {
     private final int minChunkSize;
     private final int maxChunkSize;
 
+    /**
+     * Creates an AdaptiveChunking strategy with default size constraints.
+     * 
+     * @param sectionRegex Regular expression pattern to identify section boundaries
+     */
     public AdaptiveChunking(String sectionRegex) {
         this(sectionRegex, 200, 1000);
     }
 
+    /**
+     * Creates an AdaptiveChunking strategy with custom size constraints.
+     * 
+     * @param sectionRegex Regular expression pattern to identify section boundaries
+     * @param minChunkSize Minimum chunk size in characters
+     * @param maxChunkSize Maximum chunk size in characters
+     */
     public AdaptiveChunking(String sectionRegex, int minChunkSize, int maxChunkSize) {
         this.sectionPattern = Pattern.compile(sectionRegex);
         this.minChunkSize = minChunkSize;

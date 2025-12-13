@@ -229,6 +229,72 @@ public class RAGService implements AutoCloseable {
         return chunks.size();
     }
 
+    /**
+     * Adds a document from an InputStream with automatic chunking using the specified strategy.
+     * The stream is read using UTF-8 encoding.
+     *
+     * @param baseId           Base ID for the document
+     * @param inputStream      InputStream containing document content to be chunked
+     * @param chunkingStrategy Strategy to use for chunking
+     * @return Number of chunks created
+     * @throws IOException if an I/O error occurs
+     */
+    public int addDocumentWithChunking(String baseId, java.io.InputStream inputStream, 
+                                      ChunkingStrategy chunkingStrategy) throws IOException {
+        return addDocumentWithChunking(baseId, inputStream, chunkingStrategy, null);
+    }
+
+    /**
+     * Adds a document from an InputStream with automatic chunking using the specified strategy.
+     * Each chunk is indexed as a separate document with metadata.
+     * The stream is read using UTF-8 encoding.
+     *
+     * @param baseId           Base ID for the document
+     * @param inputStream      InputStream containing document content to be chunked
+     * @param chunkingStrategy Strategy to use for chunking
+     * @param metadata         Optional metadata to attach to all chunks
+     * @return Number of chunks created
+     * @throws IOException if an I/O error occurs
+     */
+    public int addDocumentWithChunking(String baseId, java.io.InputStream inputStream, 
+                                      ChunkingStrategy chunkingStrategy,
+                                      Map<String, String> metadata) throws IOException {
+        List<String> chunks = chunkingStrategy.chunk(inputStream);
+        
+        for (int i = 0; i < chunks.size(); i++) {
+            String chunkId = baseId + "_chunk_" + (i + 1);
+            addDocument(chunkId, chunks.get(i), metadata);
+        }
+        
+        return chunks.size();
+    }
+
+    /**
+     * Adds a document from an InputStream with automatic chunking using the specified strategy.
+     * Each chunk is indexed as a separate document with metadata.
+     *
+     * @param baseId           Base ID for the document
+     * @param inputStream      InputStream containing document content to be chunked
+     * @param chunkingStrategy Strategy to use for chunking
+     * @param charsetName      Character encoding to use (e.g., "UTF-8", "ISO-8859-1")
+     * @param metadata         Optional metadata to attach to all chunks
+     * @return Number of chunks created
+     * @throws IOException if an I/O error occurs
+     */
+    public int addDocumentWithChunking(String baseId, java.io.InputStream inputStream, 
+                                      ChunkingStrategy chunkingStrategy,
+                                      String charsetName,
+                                      Map<String, String> metadata) throws IOException {
+        List<String> chunks = chunkingStrategy.chunk(inputStream, charsetName);
+        
+        for (int i = 0; i < chunks.size(); i++) {
+            String chunkId = baseId + "_chunk_" + (i + 1);
+            addDocument(chunkId, chunks.get(i), metadata);
+        }
+        
+        return chunks.size();
+    }
+
     @Override
     public void close() throws IOException {
         engine.close();
