@@ -739,34 +739,6 @@ public class MyProtegePlugin {
 }
 ```
 
-### OWL Package Structure
-
-```
-io.github.vishalmysore.graph/
-├── OWLGraphChunker.java          # Main API
-├── OWLChunk.java                 # Chunk representation
-├── OWLChunkingStrategy.java      # Strategy enum
-├── ClassBasedChunker.java        # Class hierarchy chunking
-├── NamespaceBasedChunker.java    # Namespace chunking
-├── SizeBasedChunker.java         # Size-limited chunking
-├── DepthBasedChunker.java        # Depth-based chunking
-├── ModuleExtractionChunker.java  # Module extraction
-├── ConnectedComponentChunker.java # Graph connectivity
-├── AnnotationBasedChunker.java   # Annotation-based
-└── OWLGraphChunkerExample.java   # Usage examples
-```
-
-### Dependencies
-
-Only **OWL API 5.5.0** is required (automatically added via Maven):
-
-```xml
-<dependency>
-    <groupId>net.sourceforge.owlapi</groupId>
-    <artifactId>owlapi-distribution</artifactId>
-    <version>5.5.0</version>
-</dependency>
-```
 
 ### Why OWL Graph Chunking?
 
