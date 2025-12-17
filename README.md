@@ -6,6 +6,14 @@ A **lightweight, embedded RAG (Retrieval-Augmented Generation) library** support
 
 This library provides the core RAG infrastructure needed to build agentic memory systems—AI systems that autonomously organize, link, and evolve their knowledge over time. While the full vision of agentic memory includes LLM-driven note construction, autonomous link generation, and dynamic memory evolution, this library delivers the essential foundation: **flexible document storage, advanced chunking strategies, and powerful retrieval mechanisms**.
 
+```
+   <dependency>
+            <groupId>io.github.vishalmysore</groupId>
+            <artifactId>agenticmemory</artifactId>
+            <version>0.1.1</version>
+        </dependency>
+```
+
 ## Features
 
 ✅ **No External Server Required** - All data stored locally in Lucene index files  
